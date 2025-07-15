@@ -26,8 +26,27 @@ A beautiful flower shop front-end built with **React** and **Bootstrap**. Users 
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/your-username/flower-shop-react.git
+git clone https://github.com/your-username/flowerbloom.git
+
 cd flower-shop-react
+npm install
+npm start
+
+Here is the folder Structure
+
+flowerbloom/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   ├── App.js
+│   ├── index.js
+├── package.json
+└── README.md
+
