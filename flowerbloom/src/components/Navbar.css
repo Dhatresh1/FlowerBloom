@@ -1,0 +1,91 @@
+/* Navbar container */
+.navbar {
+  background: linear-gradient(to right, #ffe6f0, #fff0f5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Brand logo */
+.navbar-brand {
+  color: #d63384;
+  font-weight: 700;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #a61e4d;
+}
+
+/* Navbar links */
+.nav-link {
+  color: #5e2b50;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-right: 1.2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #c2185b;
+  transform: scale(1.05);
+}
+
+/* Active link */
+.nav-link.active {
+  color: #c2185b;
+  font-weight: 700;
+}
+
+/* Search box wrapper */
+.d-flex {
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Search input */
+.form-control {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #f8cdda;
+  border-radius: 12px;
+  background-color: #fff9fb;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.form-control:focus {
+  border-color: #e75480;
+  box-shadow: 0 0 8px rgba(231, 84, 128, 0.4);
+  background-color: #fff;
+}
+
+/* Search button */
+.btn-outline-success {
+  padding: 0.55rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e75480;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(231, 84, 128, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #c2185b;
+  transform: translateY(-1px);
+}
+
+/* Mobile menu icon */
+.navbar-toggler {
+  border: none;
+  font-size: 1.2rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
